@@ -13,8 +13,8 @@ class Game {
         System.out.println("Bem-vindo ao Mortal Kombat !");
 
         Character subZero = new Character("Sub-Zero", 100, "Congelamento");
-        Character scorpion = new Character("Scorpion", 100, "Teleportação");
-        Character raiden = new Character("Raiden", 100, "Choque Elétrico");
+        Character scorpion = new Character("Scorpion", 200, "Teleportação");
+        Character raiden = new Character("Raiden", 300, "Choque Elétrico");
 
         System.out.println("Iniciando a batalha:");
         while (subZero.isAlive() && scorpion.isAlive() && raiden.isAlive()) {
